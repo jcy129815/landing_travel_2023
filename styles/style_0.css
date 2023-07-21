@@ -1,0 +1,333 @@
+body {
+    background-color: peachpuff;}
+/* 1페이지 */
+.heades_bg {
+    margin:0 auto;
+    width: 1440px; height: 600px;
+    background: url(../imgs/sea/gung2.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.heades_bg .heads {
+    color: #161D30;
+    position: absolute;
+    top: 103px; left: 495px;;
+}
+.heades_bg .heads h1 {
+    font-size: 2.5rem;  text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 80px;
+    font-weight: 500;
+}
+.heades_bg .heads h1 em {
+    font-size: 4.5rem;
+    letter-spacing: -0.02em;
+    line-height: 80px;
+    font-weight: 500;
+}
+/* 2페이지 */
+.sea {
+    width: 1200px;
+    padding: 50px 0;
+    margin:0 auto;
+}
+.sea h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+/*경포*/
+.sea .gungfo,
+.sea .sagnjin,
+.sea .dngmung
+{
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.sea .gungfo .sea_text,
+.sea .sagnjin .sea_text,
+.sea .dngmung .sea_text
+{position: relative;}
+
+.sea .gungfo .sea_text .texts .sub_title,
+.sea .sagnjin .sea_text .texts .sub_title,
+.sea .dngmung .sea_text .texts .sub_title
+{
+    font-size: 0.94rem;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 30;
+}
+
+
+.sea .gungfo .sea_text .texts .title,
+.sea .sagnjin .sea_text .texts .title,
+.sea .dngmung .sea_text .texts .title {
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.sea .gungfo .sea_text .texts .info,
+.sea .sagnjin .sea_text .texts .info,
+.sea .dngmung .sea_text .texts .info
+{
+    width: 440px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+
+.sea .gungfo .sea_text .texts .info .point,
+.sea .sagnjin .sea_text .texts .info .point,
+.sea .dngmung .sea_text .texts .info .point {
+    color: #FFE977;
+}
+
+.sea .gungfo .sea_text .texts .sub span,
+.sea .sagnjin .sea_text .texts .sub span,
+.sea .dngmung .sea_text .texts .sub span {
+    font-size: 0.81rem;
+    color: rgba(255, 255, 255, 0.80);
+}
+/**/
+.sea .gungfo {}
+.sea .gungfo .left_text{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px;
+    transform: rotate(90deg);
+    padding-top: 385px;
+    width: 500px;
+    color: rgba(255, 255, 255, 0.70);
+}
+.sea .gungfo .sea_text {}
+.sea .gungfo .sea_text .texts {
+    position: absolute;
+    top: -225px;
+    left: -343px;
+    background-color: rgba(20, 26, 43, 0.7);
+    width: 500px; height: 450px;
+    display: flex; flex-flow: column nowrap;
+    align-items: self-start; justify-content: center;
+    padding-left: 30px;
+}
+.sea .gungfo .sea_text .texts .sub_title {
+}
+.sea .gungfo .sea_text .texts .title {}
+.sea .gungfo .sea_text .texts .info {}
+.sea .gungfo .sea_text .texts .info .point {
+}
+.sea .gungfo .sea_text .texts .sub {}
+.sea .gungfo .sea_text .texts .sub span {
+}
+.sea .gungfo a {}
+.sea .gungfo a span{
+    display: block;
+    width: 855px; height: 450px;
+    background: url(../imgs/sea/gung.jpg) no-repeat;
+    background-size: cover;
+    }
+/*사근진*/
+.sea .sagnjin {margin: 30px 0;}
+.sea .sagnjin .left_text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px;
+    transform: rotate(90deg);
+    padding-top: 385px;
+    width: 500px;
+    color: rgba(255, 255, 255, 0.70);}
+.sea .sagnjin .sea_text {}
+.sea .sagnjin .sea_text .texts {
+    position: absolute;
+    top: 0px;
+    left: -343px;
+    background-color: rgba(20, 26, 43, 0.7);
+    width: 500px; height: 450px;
+    display: flex; flex-flow: column nowrap;
+    align-items: self-start; justify-content: center;
+    padding-left: 30px;}
+.sea .sagnjin .sea_text .texts .sub_title {}
+.sea .sagnjin .sea_text .texts .title {}
+.sea .sagnjin .sea_text .texts .info {}
+.sea .sagnjin .sea_text .texts .info .point {}
+.sea .sagnjin .sea_text .texts .sub {}
+.sea .sagnjin .sea_text .texts .sub span {}
+.sea .sagnjin .sea_text a {}
+.sea .sagnjin .sea_text a span {
+    display: block;
+    width: 855px; height: 450px;
+    background: url(../imgs/sea/sa.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*등명*/
+.sea .dngmung {}
+.sea .dngmung .left_text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px;
+    transform: rotate(90deg);
+    padding-top: 385px;
+    width: 500px;
+    color: rgba(255, 255, 255, 0.70);}
+.sea .dngmung .sea_text {}
+.sea .dngmung .sea_text .texts {
+    position: absolute;
+    top: 0px;
+    left: -343px;
+    background-color: rgba(20, 26, 43, 0.7);
+    width: 500px; height: 450px;
+    display: flex; flex-flow: column nowrap;
+    align-items: self-start; justify-content: center;
+    padding-left: 30px;}
+.sea .dngmung .sea_text .texts .sub_title {}
+.sea .dngmung .sea_text .texts .title {}
+.sea .dngmung .sea_text .texts .info {}
+.sea .dngmung .sea_text .texts .info .point {}
+.sea .dngmung .sea_text .texts .sub {}
+.sea .dngmung .sea_text .texts .sub span {}
+.sea .dngmung .sea_text a {}
+.sea .dngmung .sea_text a span {
+    display: block;
+    width: 855px; height: 450px;
+    background: url(../imgs/sea/dng.jpg) no-repeat;
+    background-size: cover;
+}
+/*3페이지*/
+.ad {width: 1440px;}
+.ad .ad_info {}
+.ad .ad_info .images {}
+.ad .ad_info .images .mu {}
+.ad .ad_info .images .mu span {
+    display: block; width: 550px; height: 232px;
+    background: url(../imgs/ad/5009147_high.jpg) no-repeat;
+    background-size: cover;}
+.ad .ad_info .images .al {}
+.ad .ad_info .images .al span {
+    display: block; width: 550px; height: 232px;
+    background: url(../imgs/ad/ar.png) no-repeat;
+    background-size: cover;}
+.ad .ad_info .images .sungo {}
+.ad .ad_info .images .sungo span {
+    display: block; width: 550px; height: 232px;
+    background: url(../imgs/ad/ha.png) no-repeat;
+    background-size: cover;}
+.ad .ad_info dl {}
+.ad .ad_info dl dt {}
+.ad .ad_info dl dt dd {}
+.ad .end {}
+.ad .end span {
+    display: block;
+    width: 1023px; height: 926px;
+    background: url(../imgs/sea/balazs-busznyak-T5MCCh70zYE-unsplash.jpg) no-repeat;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+/*4페이지*/
+.food {}
+.food h2 {}
+.food .food_list {}
+/*동화가든*/
+.food .food_list .dongha {}
+.food .food_list .dongha .food_title {}
+.food .food_list .dongha .food_title h3 {}
+.food .food_list .dongha .food_title p {}
+.food .food_list .dongha .food_sud {}
+.food .food_list .dongha .food_sud span {}
+.food .food_list .dongha .food_sud span img {}
+.food .food_list .dongha .food_sud p {}
+/*중앙시장*/
+.food .food_list .jungang {}
+.food .food_list .jungang .food_title {}
+.food .food_list .jungang .food_title h3 {}
+.food .food_list .jungang .food_title p {}
+.food .food_list .jungang .food_sud {}
+.food .food_list .jungang .food_sud span {}
+.food .food_list .jungang .food_sud span img {}
+.food .food_list .jungang .food_sud p {}
+/*해물*/
+.food .food_list .hamul {}
+.food .food_list .hamul .food_title {}
+.food .food_list .hamul .food_title h3 {}
+.food .food_list .hamul .food_title p {}
+.food .food_list .hamul .food_sud {}
+.food .food_list .hamul .food_sud span {}
+.food .food_list .hamul .food_sud span img {}
+.food .food_list .hamul .food_sud p {}
+/*톰스피자*/
+.food .food_list .toms {}
+.food .food_list .toms .food_title {}
+.food .food_list .toms .food_title h3 {}
+.food .food_list .toms .food_title p {}
+.food .food_list .toms .food_sud {}
+.food .food_list .toms .food_sud span {}
+.food .food_list .toms .food_sud span img {}
+.food .food_list .toms .food_sud p {}
+/*5페이지*/
+.dessert {}
+.dessert h2 {}
+.dessert .dst_list {}
+/*순두부젤라또*/
+.dessert .dst_list .sun {}
+.dessert .dst_list .sun h3 {}
+.dessert .dst_list .sun span {}
+.dessert .dst_list .sun span img {}
+.dessert .dst_list .sun p {}
+/*카피안목*/
+.dessert .dst_list .cobu {}
+.dessert .dst_list .cobu h3 {}
+.dessert .dst_list .cobu span {}
+.dessert .dst_list .cobu span img {}
+.dessert .dst_list .cobu p {}
+/*툇마루*/
+.dessert .dst_list .coffe {}
+.dessert .dst_list .coffe h3 {}
+.dessert .dst_list .coffe span {}
+.dessert .dst_list .coffe span img {}
+.dessert .dst_list .coffe p {}
+/*커피바다*/
+.dessert .dst_list .co_sea {}
+.dessert .dst_list .co_sea h3 {}
+.dessert .dst_list .co_sea span {}
+.dessert .dst_list .co_sea span img {}
+.dessert .dst_list .co_sea p {}
+/*6페이지*/
+.quiz {}
+.quiz h2 {}
+.quiz h2 em {}
+.quiz form {}
+.quiz form .quiz_info {}
+.quiz form .quiz_info label {}
+.quiz form .quiz_info label #andong {}
+.quiz form .quiz_info label #jen {}
+.quiz form .quiz_info label #gang {}
+.quiz form .quiz_info label #busan {}
+.quiz form .quiz_info label #seur {}
+.quiz form .quiz_info button {}
+/*7페이지*/
+.poster {}
+.poster h2 {}
+.poster span {}
+.poster span img {}
+.poster p {}
+/*8페이지*/
+.video {}
+.video h2 {}
+.video iframe {}
+.video p {}
+/*9페이지*/
+.footer {}
+.footer h2 {}
+.footer .top {}
+.footer .top span {}
+.footer .btm {}
+.footer .btm span {}
