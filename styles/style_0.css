@@ -203,15 +203,23 @@ body {
     background-size: cover;
 }
 /*3페이지*/
-.ad {width: 1440px;}
-.ad .ad_info {}
-.ad .ad_info .images {}
+.ad {width: 1440px; margin:0 auto;}
+.ad .ad_info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
+    position: relative; z-index: 200;
+}
+.ad .ad_info .images {
+    display: flex; flex-flow: column nowrap;
+}
 .ad .ad_info .images .mu {}
 .ad .ad_info .images .mu span {
     display: block; width: 550px; height: 232px;
     background: url(../imgs/ad/5009147_high.jpg) no-repeat;
     background-size: cover;}
-.ad .ad_info .images .al {}
+.ad .ad_info .images .al {
+    margin: 15px 0;
+}
 .ad .ad_info .images .al span {
     display: block; width: 550px; height: 232px;
     background: url(../imgs/ad/ar.png) no-repeat;
@@ -221,13 +229,31 @@ body {
     display: block; width: 550px; height: 232px;
     background: url(../imgs/ad/ha.png) no-repeat;
     background-size: cover;}
-.ad .ad_info dl {}
-.ad .ad_info dl dt {}
-.ad .ad_info dl dt dd {}
-.ad .end {}
+.ad .ad_info .ad_text {
+    position: absolute; right: 270px;
+}
+.ad .ad_info .ad_text li {
+    width: 310px; height: 170px;
+    background-color: #161D30;
+    display: flex; flex-flow: column nowrap;
+}
+.ad .ad_info .ad_text .li_center {
+    margin: 60px 0;
+}
+.ad .ad_info .ad_text li h2 {
+    font-size: 1.25rem; font-weight: 500;
+    color: #fff; margin-top: 15px;
+    text-align: center; 
+}
+.ad .ad_info .ad_text li p {
+    line-height: 25px; 
+    color: #fff;
+    margin:10px 36px 0;
+}
+.ad .end {position: relative; z-index: 100; top: -825px; left: 100px;}
 .ad .end span {
     display: block;
-    width: 1023px; height: 926px;
+    width: 900px; height: 1023px;
     background: url(../imgs/sea/balazs-busznyak-T5MCCh70zYE-unsplash.jpg) no-repeat;
     background-size: cover;
     transform: rotate(90deg);
