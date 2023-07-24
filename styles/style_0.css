@@ -1,5 +1,5 @@
 body {
-    background-color: peachpuff;}
+    background-color: #161D30;}
 /* 1페이지 */
 .heades_bg {
     margin:0 auto;
@@ -28,8 +28,7 @@ body {
 /* 2페이지 */
 .sea {
     width: 1200px;
-    padding: 50px 0;
-    margin:0 auto;
+    margin:50px auto;
 }
 .sea h2 {
     text-align: center;
@@ -38,6 +37,7 @@ body {
     line-height: 53px;
     letter-spacing: -0.02em;
     color: #fff;
+    margin-bottom: 30px;
 }
 /*경포*/
 .sea .gungfo,
@@ -203,7 +203,7 @@ body {
     background-size: cover;
 }
 /*3페이지*/
-.ad {width: 1440px; margin:0 auto;}
+.ad {width: 1440px; height: 900px; margin:100px auto;}
 .ad .ad_info {
     display: flex; flex-flow: row nowrap;
     justify-content: center; align-items: center;
@@ -230,7 +230,7 @@ body {
     background: url(../imgs/ad/ha.png) no-repeat;
     background-size: cover;}
 .ad .ad_info .ad_text {
-    position: absolute; right: 270px;
+    position: absolute; right: 260px;
 }
 .ad .ad_info .ad_text li {
     width: 310px; height: 170px;
@@ -238,7 +238,7 @@ body {
     display: flex; flex-flow: column nowrap;
 }
 .ad .ad_info .ad_text .li_center {
-    margin: 60px 0;
+    margin: 75px 0;
 }
 .ad .ad_info .ad_text li h2 {
     font-size: 1.25rem; font-weight: 500;
@@ -250,54 +250,85 @@ body {
     color: #fff;
     margin:10px 36px 0;
 }
-.ad .end {position: relative; z-index: 100; top: -825px; left: 100px;}
+.ad .end {position: relative; z-index: 100; top: -875px; left: 184px;}
 .ad .end span {
     display: block;
-    width: 900px; height: 1023px;
+    width: 930px; height: 1023px;
     background: url(../imgs/sea/balazs-busznyak-T5MCCh70zYE-unsplash.jpg) no-repeat;
     background-size: cover;
     transform: rotate(90deg);
 }
 /*4페이지*/
-.food {}
-.food h2 {}
-.food .food_list {}
+.food {margin:0 auto; width: 1200px;}
+.food h2 {
+    font-size: 1.93rem; text-align: center;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.food .food_list {
+    display: flex; flex-flow: row wrap; justify-content: center;
+}
+.food_title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.food_sud {position: relative;}
+.food_sud > p {position: relative; top: -25px; left: 14px;}
 /*동화가든*/
-.food .food_list .dongha {}
+.food .food_list .dongha {margin: 0 102px 30px 0;}
 .food .food_list .dongha .food_title {}
-.food .food_list .dongha .food_title h3 {}
-.food .food_list .dongha .food_title p {}
+.food .food_list .dongha .food_title h3 {color: #fff;}
+.food .food_list .dongha .food_title p {color: #fff;}
 .food .food_list .dongha .food_sud {}
-.food .food_list .dongha .food_sud span {}
-.food .food_list .dongha .food_sud span img {}
-.food .food_list .dongha .food_sud p {}
+.food .food_list .dongha .food_sud .sud1 {}
+.food .food_list .dongha .food_sud .sud1 span {
+    display: block; width: 549px; height: 190px;
+    background: url(../imgs/food/sun.jpg) center no-repeat;
+    background-size: cover;
+}
+.food .food_list .dongha .food_sud p {color: #fff;}
 /*중앙시장*/
 .food .food_list .jungang {}
 .food .food_list .jungang .food_title {}
-.food .food_list .jungang .food_title h3 {}
-.food .food_list .jungang .food_title p {}
+.food .food_list .jungang .food_title h3 {color: #fff;}
+.food .food_list .jungang .food_title p {color: #fff;}
 .food .food_list .jungang .food_sud {}
-.food .food_list .jungang .food_sud span {}
-.food .food_list .jungang .food_sud span img {}
-.food .food_list .jungang .food_sud p {}
+.food .food_list .jungang .food_sud .sud2 {}
+.food .food_list .jungang .food_sud .sud2 span {
+    display: block; width: 549px; height: 190px;
+    background: url(../imgs/food/gangjung.jpg) center no-repeat;
+    background-size: cover;
+}
+.food .food_list .jungang .food_sud p {color: #fff;}
 /*해물*/
-.food .food_list .hamul {}
+.food .food_list .hamul {margin-right: 102px;}
 .food .food_list .hamul .food_title {}
-.food .food_list .hamul .food_title h3 {}
-.food .food_list .hamul .food_title p {}
+.food .food_list .hamul .food_title h3 {color: #fff;}
+.food .food_list .hamul .food_title p {color: #fff;}
 .food .food_list .hamul .food_sud {}
-.food .food_list .hamul .food_sud span {}
-.food .food_list .hamul .food_sud span img {}
-.food .food_list .hamul .food_sud p {}
+.food .food_list .hamul .food_sud .sud3 {}
+.food .food_list .hamul .food_sud .sud3 span {
+    display: block; background: url(../imgs/food/hamul.jpg) center no-repeat;
+    width: 549px; height: 190px; background-size: cover;
+}
+.food .food_list .hamul .food_sud p {color: #fff;}
 /*톰스피자*/
 .food .food_list .toms {}
 .food .food_list .toms .food_title {}
-.food .food_list .toms .food_title h3 {}
-.food .food_list .toms .food_title p {}
+.food .food_list .toms .food_title h3 {color: #fff;}
+.food .food_list .toms .food_title p {color: #fff;}
 .food .food_list .toms .food_sud {}
-.food .food_list .toms .food_sud span {}
-.food .food_list .toms .food_sud span img {}
-.food .food_list .toms .food_sud p {}
+.food .food_list .toms .food_sud .sud4 {}
+.food .food_list .toms .food_sud .sud4 span {
+    background: url(../imgs/food/piza.jpg) center no-repeat;
+    background-size: cover; width: 549px; height: 190px; display: block;
+}
+.food .food_list .toms .food_sud p {color: #fff;}
 /*5페이지*/
 .dessert {}
 .dessert h2 {}
